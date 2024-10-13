@@ -14,7 +14,7 @@ class Page2 extends StatelessWidget {
         height: MediaQuery.of(context).size.height * 3,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/image/bg.jpeg"),
+            image: AssetImage("assets/images/bg.jpeg"),
             fit: BoxFit.cover,
           ),
         ),
@@ -39,7 +39,7 @@ class Page2 extends StatelessWidget {
                       padding: EdgeInsets.all(4.0),
                       child: CircleAvatar(
                         radius: 60.0,
-                        backgroundImage: AssetImage("assets/image/profile.jpg"),
+                        backgroundImage: AssetImage("assets/images/profile.jpg"),
                       ),
                     ),
                     Text(
